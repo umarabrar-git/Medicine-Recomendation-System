@@ -198,7 +198,7 @@ with tab1:
             st.markdown(f'<div class="result-title">{result["disease"]}</div>', unsafe_allow_html=True)
             st.markdown(f'<div class="result-subtitle">Confidence: {result["confidence"]:.2f}%</div>', unsafe_allow_html=True)
 
-            st.progress(min_value=0, max_value=100, value=result["confidence"])
+            st.progress(result["confidence"] / 100)
             st.caption(f"Symptoms reviewed: {', '.join(result['symptoms']) if result['symptoms'] else 'None'}")
 
             desc_row = description[description["Disease"] == result["disease"]]
