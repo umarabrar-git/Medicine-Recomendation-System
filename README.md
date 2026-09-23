@@ -102,8 +102,7 @@ The exact algorithm can be specified according to the model used in the project.
 | NumPy              | Numerical operations              |
 | Scikit-learn       | Machine learning                  |
 | Streamlit          | Web application                   |
-| Pickle/Joblib      | Saving and loading trained models |
-| Matplotlib/Seaborn | Data visualization, if used       |
+| Pickle/Joblib      | Saving and loading trained models |      |
 
 ---
 
@@ -118,9 +117,6 @@ Medicine-Recommendation-System/
 │
 ├── data/
 │   └── medicine_dataset.csv
-│
-├── notebooks/
-│   └── medicine_prediction.ipynb
 │
 ├── requirements.txt
 ├── README.md
